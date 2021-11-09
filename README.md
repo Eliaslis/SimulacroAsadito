@@ -2,4 +2,4 @@
 
 Diagrama UML:
 
-![mi foto](plantuml.PNG)
+![mi foto](plantuml.png)
