@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="452px" preserveAspectRatio="none" style="width:1674px;height:452px;background:#FFFFFF;" version="1.1" viewBox="0 0 1674 452" width="1674px" zoomAndPan="magnify"><defs><filter height="300%" id="f18vm9s1qcnizs" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8f63dadf5c643e74a34e53c8f0a15d23]
+class Persona--><rect codeLine="1" fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="176.0469" id="Persona" style="stroke:#A80036;stroke-width:1.5;" width="162" x="769.5" y="116"/><ellipse cx="820.25" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M823.2188,137.6406 Q822.6406,137.9375 822,138.0781 Q821.3594,138.2344 820.6563,138.2344 Q818.1563,138.2344 816.8281,136.5938 Q815.5156,134.9375 815.5156,131.8125 Q815.5156,128.6875 816.8281,127.0313 Q818.1563,125.375 820.6563,125.375 Q821.3594,125.375 822,125.5313 Q822.6563,125.6875 823.2188,125.9844 L823.2188,128.7031 Q822.5938,128.125 822,127.8594 Q821.4063,127.5781 820.7813,127.5781 Q819.4375,127.5781 818.75,128.6563 Q818.0625,129.7188 818.0625,131.8125 Q818.0625,133.9063 818.75,134.9844 Q819.4375,136.0469 820.7813,136.0469 Q821.4063,136.0469 822,135.7813 Q822.5938,135.5 823.2188,134.9219 L823.2188,137.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="840.75" y="136.1543">Persona</text><line style="stroke:#A80036;stroke-width:1.5;" x1="770.5" x2="930.5" y1="148" y2="148"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="775.5" y="162.2104">dieta</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="775.5" y="175.0151">platosConsumidos</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="775.5" y="187.8198">posicion</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="775.5" y="200.6245">criterio</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="775.5" y="213.4292">elementosCercanos</text><line style="stroke:#A80036;stroke-width:1.5;" x1="770.5" x2="930.5" y1="220.0234" y2="220.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="775.5" y="234.2339">recibirElemento(elemento)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="775.5" y="247.0386">peticion(elemento,alguien)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="775.5" y="259.8433">aceptarComida(comida)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="775.5" y="272.6479">pipon()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="775.5" y="285.4526">laEstaPasandoBien()</text><!--MD5=[9a947c3df7d32d8d2bab6a7671d7e12e]
+class Criterio--><rect codeLine="24" fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="60.8047" id="Criterio" style="stroke:#A80036;stroke-width:1.5;" width="255" x="370" y="364.5"/><ellipse cx="470.75" cy="380.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M466.6719,376.2656 L466.6719,374.1094 L474.0625,374.1094 L474.0625,376.2656 L471.5938,376.2656 L471.5938,384.3438 L474.0625,384.3438 L474.0625,386.5 L466.6719,386.5 L466.6719,384.3438 L469.1406,384.3438 L469.1406,376.2656 L466.6719,376.2656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="491.25" y="384.6543">Criterio</text><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="624" y1="396.5" y2="396.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="624" y1="404.5" y2="404.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="376" y="418.7104">realizarPeticion(elemento,emisor,receptor)</text><!--MD5=[499270d29bbdba8d04de2a857c850c15]
+class Comida--><rect codeLine="16" fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="86.4141" id="Comida" style="stroke:#A80036;stroke-width:1.5;" width="78" x="1001.5" y="352"/><ellipse cx="1016.5" cy="368" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1019.4688,373.6406 Q1018.8906,373.9375 1018.25,374.0781 Q1017.6094,374.2344 1016.9063,374.2344 Q1014.4063,374.2344 1013.0781,372.5938 Q1011.7656,370.9375 1011.7656,367.8125 Q1011.7656,364.6875 1013.0781,363.0313 Q1014.4063,361.375 1016.9063,361.375 Q1017.6094,361.375 1018.25,361.5313 Q1018.9063,361.6875 1019.4688,361.9844 L1019.4688,364.7031 Q1018.8438,364.125 1018.25,363.8594 Q1017.6563,363.5781 1017.0313,363.5781 Q1015.6875,363.5781 1015,364.6563 Q1014.3125,365.7188 1014.3125,367.8125 Q1014.3125,369.9063 1015,370.9844 Q1015.6875,372.0469 1017.0313,372.0469 Q1017.6563,372.0469 1018.25,371.7813 Q1018.8438,371.5 1019.4688,370.9219 L1019.4688,373.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="46" x="1030.5" y="372.1543">Comida</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1002.5" x2="1078.5" y1="384" y2="384"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="1007.5" y="398.2104">calorias</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="1007.5" y="411.0151">esCarne</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1002.5" x2="1078.5" y1="417.6094" y2="417.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="1007.5" y="431.8198">esPesada()</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="219" x="7" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="76" y="192.6387">criterioSordo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="225" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="13" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="207" x="13" y="222.3916">realizarPeticion(elemento,emisor,receptor)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="219" x="261" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="319.5" y="192.6387">criterioTranquilo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="262" x2="479" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="267" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="207" x="267" y="222.3916">realizarPeticion(elemento,emisor,receptor)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="219" x="515" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="573" y="192.6387">criterioElemento</text><line style="stroke:#A80036;stroke-width:1.5;" x1="516" x2="733" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="521" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="207" x="521" y="222.3916">realizarPeticion(elemento,emisor,receptor)</text><!--MD5=[3aee9b6b03d95518c1d3e8f81cd7e461]
+class Dieta--><rect codeLine="46" fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="73.6094" id="Dieta" style="stroke:#A80036;stroke-width:1.5;" width="168" x="1138.5" y="358"/><ellipse cx="1201.75" cy="374" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1197.6719,369.7656 L1197.6719,367.6094 L1205.0625,367.6094 L1205.0625,369.7656 L1202.5938,369.7656 L1202.5938,377.8438 L1205.0625,377.8438 L1205.0625,380 L1197.6719,380 L1197.6719,377.8438 L1200.1406,377.8438 L1200.1406,369.7656 L1197.6719,369.7656 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="33" x="1222.25" y="378.1543">Dieta</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1305.5" y1="390" y2="390"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="14" x="1144.5" y="404.2104">ㅤㅤ</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1139.5" x2="1305.5" y1="410.8047" y2="410.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="1144.5" y="425.0151">verificacionComida(comida)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="147" x="967" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="1003" y="192.6387">vegetariano</text><line style="stroke:#A80036;stroke-width:1.5;" x1="968" x2="1113" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="973" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="973" y="222.3916">verificacionComida(comida)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="147" x="1149" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="1195" y="192.6387">dietetico</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1150" x2="1295" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="1155" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="1155" y="222.3916">verificacionComida(comida)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="147" x="1331" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="1374" y="192.6387">alternado</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1332" x2="1477" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="37" x="1337" y="210.751">aceptar</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="1337" y="222.3916">verificacionComida(comida)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="147" x="1513" y="179.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="1552" y="192.6387">combinado</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1514" x2="1659" y1="197.4688" y2="197.4688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="1519" y="210.751">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="1519" y="222.3916">verificacionComida(comida)</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="102" x="593.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="630.5" y="20.1387">osky</text><line style="stroke:#A80036;stroke-width:1.5;" x1="594.5" x2="694.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="599.5" y="38.251">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="599.5" y="49.8916">cumpleCondicion()</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="102" x="730.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="766.5" y="20.1387">moni</text><line style="stroke:#A80036;stroke-width:1.5;" x1="731.5" x2="831.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="736.5" y="38.251">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="736.5" y="49.8916">cumpleCondicion()</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="102" x="867.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="905" y="20.1387">facu</text><line style="stroke:#A80036;stroke-width:1.5;" x1="868.5" x2="968.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="873.5" y="38.251">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="873.5" y="49.8916">cumpleCondicion()</text><rect fill="#FEFECE" filter="url(#f18vm9s1qcnizs)" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="102" x="1004.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="1042" y="20.1387">vero</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1005.5" x2="1105.5" y1="24.9688" y2="24.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="12" x="1010.5" y="38.251">ㅤㅤ</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="90" x="1010.5" y="49.8916">cumpleCondicion()</text><!--MD5=[abbabb8161fa2484d015895bf56032c4]
+link Persona to Criterio--><path codeLine="13" d="M769.2485,279.9341 C763.4008,284.2299 757.4575,288.2985 751.5,292 C704.4125,321.2562 647.5801,345.2154 599.6236,362.64 " fill="none" id="Persona-to-Criterio" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="594.7148,364.4121,604.5383,365.1183,599.4177,362.7143,601.8218,357.5937,594.7148,364.4121" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[392e2078179fefd54ea887cf51d78c86]
+link Persona to Comida--><path codeLine="14" d="M931.6282,285.5552 C954.3222,308.3686 978.0955,332.2671 997.6169,351.8912 " fill="none" id="Persona-to-Comida" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1001.4629,355.7574,997.9515,346.5558,997.9367,352.2126,992.2798,352.1977,1001.4629,355.7574" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="986.6201" y="344.1802">*</text><!--MD5=[ab6c6948b4813d744403c9f0887e2ce8]
+link criterioSordo to Criterio--><path codeLine="28" d="M147.8682,228.6583 C172.8353,247.5498 209.1663,273.4391 243.5,292 C289.8451,317.0544 343.6116,339.7028 389.712,357.3401 " fill="none" id="criterioSordo-to-Criterio" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="392.3726,350.8621,408.6228,364.4612,387.4389,363.964,392.3726,350.8621" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d8ca4f3398753d37ffd65e13adea1f16]
+link criterioTranquilo to Criterio--><path codeLine="29" d="M386.843,228.5789 C406.738,258.4997 440.7813,309.6987 465.8674,347.4265 " fill="none" id="criterioTranquilo-to-Criterio" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="471.7754,343.6695,477.0203,364.1998,460.1173,351.4213,471.7754,343.6695" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6fe57aa48cd4c8c4a9bab255f9574a6e]
+link criterioElemento to Criterio--><path codeLine="30" d="M608.157,228.5789 C588.262,258.4997 554.2187,309.6987 529.1326,347.4265 " fill="none" id="criterioElemento-to-Criterio" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="534.8827,351.4213,517.9797,364.1998,523.2246,343.6695,534.8827,351.4213" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ea5c8fc0cb95ba1d78faa6c6a6c67f7]
+link Persona to Dieta--><path codeLine="50" d="M931.6471,280.1045 C937.5202,284.3588 943.4976,288.3717 949.5,292 C966.0706,302.0166 1060.2254,336.8081 1133.3812,363.2085 " fill="none" id="Persona-to-Dieta" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1138.1685,364.935,1131.0593,358.1189,1133.465,363.2387,1128.3452,365.6444,1138.1685,364.935" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a219cc27f2e9b3ce544e1f0e35f79b23]
+link vegetariano to Dieta--><path codeLine="70" d="M1063.9207,228.5789 C1091.3444,257.3587 1137.5269,305.8249 1173.0014,343.0537 " fill="none" id="vegetariano-to-Dieta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1178.2482,338.4126,1186.9774,357.7207,1168.1127,348.0705,1178.2482,338.4126" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[724e3f7e5684817cc033de3816472b0b]
+link vegetariano to Comida--><path codeLine="71" d="M1040.5,228.5789 C1040.5,258.2525 1040.5,308.8543 1040.5,346.4888 " fill="none" id="vegetariano-to-Comida" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1040.5,351.9433,1044.5,342.9433,1040.5,346.9433,1036.5,342.9433,1040.5,351.9433" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[786c7fde42e4e97ce95c15e7a792afdd]
+link alternado to Dieta--><path codeLine="72" d="M1381.0793,228.5789 C1353.6556,257.3587 1307.4731,305.8249 1271.9986,343.0537 " fill="none" id="alternado-to-Dieta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1276.8873,348.0705,1258.0226,357.7207,1266.7518,338.4126,1276.8873,348.0705" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b685bfdba8146bdfc4a11358ef302840]
+link combinado to Dieta--><path codeLine="73" d="M1565.8992,228.8718 C1548.7452,248.2608 1522.791,274.7104 1495.5,292 C1443.4013,325.006 1379.1109,349.9141 1326.0085,366.9616 " fill="none" id="combinado-to-Dieta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1327.8009,373.7349,1306.624,372.9988,1323.6378,360.3682,1327.8009,373.7349" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[67f1e1592819edaa2657499667574367]
+link dietetico to Dieta--><path codeLine="74" d="M1222.5,228.5789 C1222.5,255.9517 1222.5,301.1331 1222.5,337.5165 " fill="none" id="dietetico-to-Dieta" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1229.5001,337.7208,1222.5,357.7207,1215.5001,337.7207,1229.5001,337.7208" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[96a2f7a12f5fa62da6f5345fff57074c]
+link dietetico to Comida--><path codeLine="75" d="M1199.0793,228.5789 C1169.8753,259.227 1119.3981,312.2004 1083.2334,350.1534 " fill="none" id="dietetico-to-Comida" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1079.7795,353.7781,1088.8839,350.0219,1083.2287,350.1583,1083.0923,344.5031,1079.7795,353.7781" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[56b6c657a45d2853c9409f6d103a6957]
+link osky to Persona--><path codeLine="77" d="M676.7272,56.1637 C698.1711,72.7662 726.8273,95.322 751.5,116 C752.3179,116.6855 753.1387,117.375 753.962,118.0683 " fill="none" id="osky-to-Persona" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="758.5751,112.8025,769.2511,131.1062,749.4909,123.4552,758.5751,112.8025" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ca80fea9f3a15afc6a8202827c3ea8e4]
+link moni to Persona--><path codeLine="78" d="M791.386,56.215 C795.9411,67.6027 801.6906,81.9766 807.8047,97.2617 " fill="none" id="moni-to-Persona" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="814.3143,94.6877,815.2428,115.857,801.3156,99.8872,814.3143,94.6877" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d86f96e26c515e0f2ccd4af64ec3e213]
+link facu to Persona--><path codeLine="79" d="M908.7573,56.215 C904.2927,67.5405 898.6639,81.8196 892.6753,97.0112 " fill="none" id="facu-to-Persona" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="899.0933,99.8176,885.2462,115.857,886.0688,94.6833,899.0933,99.8176" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f26d2baebb23dd76f8d8a7f5c83d58f]
+link vero to Persona--><path codeLine="80" d="M1023.6015,56.2051 C1002.3696,72.8251 973.9839,95.3848 949.5,116 C948.5792,116.7753 947.6547,117.5557 946.727,118.3406 " fill="none" id="vero-to-Persona" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="951.2492,123.6839,931.5031,131.371,942.1456,113.0479,951.2492,123.6839" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a7666b445811687079d79a0dee68e967]
+@startuml
+class Persona{
+dieta
+platosConsumidos
+posicion
+criterio
+elementosCercanos
+recibirElemento(elemento)
+peticion(elemento,alguien)
+aceptarComida(comida)
+pipon()
+laEstaPasandoBien()
+}
+Persona - -> Criterio
+Persona - ->"*" Comida
+
+class Comida{
+calorias
+esCarne
+
+esPesada()
+}
+
+
+interface Criterio{
+realizarPeticion(elemento,emisor,receptor)
+
+}
+criterioSordo ..|> Criterio
+criterioTranquilo ..|> Criterio
+criterioElemento ..|> Criterio
+
+object criterioSordo{
+    ㅤㅤ
+  realizarPeticion(elemento,emisor,receptor)
+}
+object criterioTranquilo{
+    ㅤㅤ
+  realizarPeticion(elemento,emisor,receptor)
+}
+
+object criterioElemento{
+    ㅤㅤ
+  realizarPeticion(elemento,emisor,receptor)
+}
+
+interface Dieta{
+  ㅤㅤ
+verificacionComida(comida)
+}
+Persona - -> Dieta
+
+object vegetariano{
+  ㅤㅤ
+verificacionComida(comida)
+}
+object dietetico{
+  ㅤㅤ
+verificacionComida(comida)
+}
+
+object alternado{
+  aceptar
+  verificacionComida(comida)
+}
+object combinado{
+  ㅤㅤ
+verificacionComida(comida)
+}
+
+vegetariano ..|> Dieta
+vegetariano ..> Comida
+alternado ..|> Dieta
+combinado ..|> Dieta
+dietetico ..|> Dieta
+dietetico ..> Comida
+
+osky - -|> Persona
+moni - -|> Persona
+facu - -|> Persona
+vero - -|> Persona
+
+object osky{
+ㅤㅤ
+  cumpleCondicion()
+}
+
+object moni{
+  ㅤㅤ
+
+cumpleCondicion()
+}
+
+
+object facu{
+  ㅤㅤ
+
+cumpleCondicion()
+}
+
+object vero{
+  ㅤㅤ
+  cumpleCondicion()
+}
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 12:40:07 UTC 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
